@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bgstars"
+    android:padding="10dp"
+    tools:context=".DashboardActivity" >
+
+    <TextView
+        android:id="@+id/TextView1"
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Materi-IT Bookmark"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/WebMateriIT"
+        android:layout_width="177dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/bookmarklist"
+        android:layout_alignRight="@+id/bookmarklist"
+        android:layout_below="@+id/TextView1"
+        android:layout_marginTop="18dp"
+        android:text="Blog Materi-IT" />
+
+    <Button
+        android:id="@+id/bookmarklist"
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/WebMateriIT"
+        android:layout_centerHorizontal="true"
+        android:text="Bookmark IT" />
+
+    <Button
+        android:id="@+id/aboutus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/bookmarklist"
+        android:layout_alignRight="@+id/bookmarklist"
+        android:layout_below="@+id/bookmarklist"
+        android:text="About Us" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/aboutus"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/star" />
+    
+        <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-3904453789584384/9116532352">
+        </com.google.android.gms.ads.AdView>
+
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="187dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/adView"
+            android:layout_centerHorizontal="true"
+            android:text="Logout" />
+
+</RelativeLayout>

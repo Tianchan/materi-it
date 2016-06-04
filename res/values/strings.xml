@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Materi IT</string>
+    <string name="feedback">Feedback</string>
+    <string name="web_materi">Web Materi-IT</string>
+    <string name="official">Official Website Teknik Informatika</string>
+    <string name="inbox">Inbox</string>
+    <string name="login">Login</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3904453789584384/6318489953</string>
+        
+</resources>

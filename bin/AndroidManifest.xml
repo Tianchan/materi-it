@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.materi.it.app"
+    android:versionCode="2"
+    android:versionName="1.1" >
+
+    <uses-sdk android:minSdkVersion="8" />
+
+    <application
+        android:configChanges="keyboardHidden|orientation"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        
+        <!--This meta-data tag is required to use Google Play Services.-->
+        <meta-data android:name="com.google.android.gms.version"
+        android:value="@integer/google_play_services_version" />
+        <activity
+            android:name="com.materi.it.project.MainScreenActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- All Product Activity -->
+        <activity
+            android:name="com.materi.it.project.FeedbackActivity"
+            android:label="List Inbox" >
+        </activity>
+
+        <!-- Add Product Activity -->
+        <activity
+            android:name="com.materi.it.project.NewFeedbackActivity"
+            android:label="Feedback" >
+        </activity>
+
+        <!-- Edit Product Activity -->
+        <activity
+            android:name="com.materi.it.project.ViewFeedbackActivity"
+            android:label="Inbox" >
+        </activity>
+        <activity android:name="com.materi.it.project.LoginActivity" android:label="Login Area"></activity>
+        <activity android:name="com.materi.it.project.RegisterActivity" android:label="Register Area"></activity>
+        <activity android:name="com.materi.it.project.DashboardActivity" android:label="Member Area"></activity>
+        <activity android:name="com.materi.it.webview.AboutUs" android:label="About Us"></activity>
+        <activity android:name="com.materi.it.webview.AboutUsList" android:label="About Us"></activity>
+        <activity android:label="Home" android:name="com.materi.it.webview.UtamaMateriIT"></activity>
+        <activity android:label="Materi IT" android:name="com.materi.it.webview.HomeMateriIT"></activity>
+        <activity android:label="Sitemap" android:name="com.materi.it.webview.SitemapMateriIT"></activity>
+        <activity android:label="Skripsi IT" android:name="com.materi.it.webview.SkripsiMateriIT"></activity>
+        <activity android:label="Bookmark" android:name="com.materi.it.bookmark.HomeBookmark"></activity>
+        <activity android:label="Android HIVE" android:name="com.materi.it.bookmark.AndroidHIVE"></activity>
+        <activity android:label="ElisLab" android:name="com.materi.it.bookmark.ElisLab"></activity>
+        <activity android:label="Google Search" android:name="com.materi.it.bookmark.Google"></activity>
+        <activity android:label="Jago Coding" android:name="com.materi.it.bookmark.JagoCoding"></activity>
+        <activity android:label="PHP" android:name="com.materi.it.bookmark.PHP"></activity>
+        <activity android:label="Tutorial Republic" android:name="com.materi.it.bookmark.TutorialRepublic"></activity>
+        <activity android:label="W3Schools" android:name="com.materi.it.bookmark.W3Schools"></activity>
+        
+        <!--Include the AdActivity configChanges and theme. -->
+        <activity android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" />
+        
+    </application>
+
+    <!--  Internet Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+</manifest>
