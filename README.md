@@ -30,6 +30,9 @@ Aplikasi Materi IT memiliki beberapa sampel fitur yang bisa dikembangkan sesuai 
 ## Tersedia di Google Playstore
 <a href="https://play.google.com/store/apps/details?id=com.materi.it.app"><img src="https://2.bp.blogspot.com/-cJuuTvCO8lI/V1Mr9XLcucI/AAAAAAAAE8k/7q5iNk-cPBYyMp7wlIZj_LsF2Wizz10nACLcB/s1600/playstore.png" height="38" width="128"></a>
 
+## Contact
+Septian Maulana - <a href"mail:septian.business@gmail.com">septian.business@gmail.com</a>
+
 ## License
 
 Copyright 2016 Septian Maulana
