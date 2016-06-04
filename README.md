@@ -24,7 +24,7 @@ Aplikasi Materi IT memiliki beberapa sampel fitur yang bisa dikembangkan sesuai 
 <li><a href="https://github.com/rakyll/google-play-services">Google-Play-Service</a></li>
 </ul>
 
-## Screnshoot
+## Screenshoot
 <img src="https://4.bp.blogspot.com/-J6sw0wWs8Lg/V1MpHjvuBQI/AAAAAAAAE8Y/Gcq1n59g4kIO-3siRnHDcKVtJ9g5FgVugCLcB/s1600/Materi%2BIT%2B-%2B1.jpg)" width="512">
 
 ## Tersedia di Google Playstore
