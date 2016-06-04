@@ -6,7 +6,7 @@ Aplikasi ini dibuat untuk melakukan akses yang lebih mudah ke website Materi-IT.
 
 ## Fitur
 Aplikasi Materi IT memiliki beberapa sampel fitur yang bisa dikembangkan sesuai dengan kebutuhan :
-<ol>
+<ul>
 <li>Library JSONParse</li>
 <li>Simple CRUD</li>
 <li>Database MySQL</li>
@@ -14,13 +14,15 @@ Aplikasi Materi IT memiliki beberapa sampel fitur yang bisa dikembangkan sesuai 
 <li>Login dan Register</li>
 <li>Validasi Form</li>
 <li>Webview Sample</li>
-<li>Ads Google Sample<li>
+<li>Ads Google Sample</li>
 <li>Version Manager</li>
-</ol>
+</ul>
 
 ## Library
-<a href="https://github.com/winsontan520/Android-WVersionManager">Android-WVersionManager</a>
-<a href="https://github.com/rakyll/google-play-services">Google-Play-Service</a>
+<ul>
+<li><a href="https://github.com/winsontan520/Android-WVersionManager">Android-WVersionManager</a></li>
+<li><a href="https://github.com/rakyll/google-play-services">Google-Play-Service</a></li>
+</ul>
 
 ## Screnshoot
 <img src="https://4.bp.blogspot.com/-J6sw0wWs8Lg/V1MpHjvuBQI/AAAAAAAAE8Y/Gcq1n59g4kIO-3siRnHDcKVtJ9g5FgVugCLcB/s1600/Materi%2BIT%2B-%2B1.jpg)" width="512">
